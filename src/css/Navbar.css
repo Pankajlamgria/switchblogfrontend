@@ -1,0 +1,125 @@
+
+    .innnernavcontent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .innnernavcontent ul{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    #webname{
+        font-family: 'Alex Brush', cursive;
+        text-shadow: 5px 5px 8px #f58497;
+        font-size: 30px;
+    }
+    .innnernavcontent ul a{
+        text-decoration-line: none;
+        color: white;
+        font-family: 'Pacifico', cursive;
+        margin-left: 3rem;
+        font-size: 20px;
+    }
+    .innnernavcontent ul li{
+        cursor: pointer;
+        text-decoration-line: none;
+        color: white;
+        font-family: 'Pacifico', cursive;
+        margin-left: 3rem;
+        font-size: 20px;
+    }
+    .innnernavcontent ul a:hover{
+        text-shadow: 1px 1px pink;
+    }
+    .Navbar{
+       font-size: large;
+        height: 4.8rem;
+        background-color: rgb(153 142 241);
+        color: whitesmoke;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .userbtn button{
+        cursor: pointer;
+        margin-right: 2.5rem;
+        height: 2rem;
+        width: 3.5rem;   
+        font-family: 'Lugrasimo', cursive;
+        font-size:16px;
+        background-color: rgb(186, 177, 253);
+        border: 1px solid whitesmoke;
+        border-radius:8px;
+        box-shadow: 1px 1px white;
+        color: white;
+    }
+    .userbtn{
+
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    #usericon{
+        height:40px;
+        width: 55px;
+        color: white;
+        margin-right: 40px;
+        cursor: pointer;
+        /* margin-bottom: ; */
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: rgb(97 97 97);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav h4 {
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav h4:hover {
+        color: #a7a7a7;
+      }
+      .sidenav a {
+        padding: 8px 8px 8px 8px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #ffffff;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 8px;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+
+      }
+      .closebtn box-icon{
+        height:  35px;
+        width: 35px;
+      } 
+      
+      
+  
